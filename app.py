@@ -30,5 +30,8 @@ def main():
     if uploaded_file:
         st.write("파일 이름:", uploaded_file.name)
 
+
+    st.info("파일이 변경되면 자동으로 반영됩니다.")
+
 if __name__ == "__main__":
     main()
